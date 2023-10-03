@@ -56,18 +56,55 @@ hr{
 .conteiner-description{
     padding-top: 20px;
     padding-left: 50px;
+    line-height: 30px;
 }
-
+/* Change Symbol of Marker */
 ul {
   list-style: none;
 }
-
 li {
   padding-left: 1em;
   text-indent: -1em;
 }
-
 li:before {
   content: "+";
   padding-right: 5px;
+}
+
+/*---------------Classi Generiche e specifiche---------------*/
+/* Classe generica per la formattazione del box che descrive la dei Tipologia task */
+.type{
+    background-color: rgb(23, 172, 209);
+    color: aliceblue;
+    border-radius: 30%;
+    border: 20px;
+    padding: 5px;
+    font-size: 7px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* Classi Specifiche */
+
+/* Editorial Type */
+.type.editorial{
+    background-color: rgb(23, 172, 209);
+}
+/* Goals Type */
+.type.goals{
+    background-color: rgb(129, 20, 231);
+}
+/* Recruting Type */
+.type.recruting{
+    background-color: rgb(91, 150, 116);
+}
+/* Mobile Type */
+.type.mobile{
+    background-color: rgb(231, 87, 20);
+}
+/* Website Type */
+.type.website{
+    background-color: rgb(190, 49, 143);
+}
+/* Sales Type */
+.type.sales{
+    background-color: rgb(25, 150, 25);
 }

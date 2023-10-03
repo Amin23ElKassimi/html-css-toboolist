@@ -1,0 +1,54 @@
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
+.logo-conteiner{
+    padding: 20px ;
+}
+.logo-img{
+    vertical-align: bottom;
+}
+#title{
+    color: darkblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    line-height: 50px;
+    display: inline-block;
+}
+
+/* Main */
+.container-main{
+    background-color: aquamarine;
+    padding-top: 50px;
+}
+
+/* Container Background color  */
+.container{
+    background-color: aliceblue;
+    
+}
+/* Container To Do List */
+.container.todo-list{
+    height: 600px;
+    width: 500px;
+    margin: auto;
+    border-radius: 10%;
+}
+/* Container Inputs */
+.container.inputs{
+    height: 50px;
+    padding-left: 50px;
+    padding-top: 15px;
+}
+
+/* Color HR */
+hr{
+    border-color: aquamarine;
+    size: 5px;
+}
+
+

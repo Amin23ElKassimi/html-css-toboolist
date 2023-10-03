@@ -43,9 +43,20 @@
 }
 /* Botton add */
 #add{
-   background-color: aqua;
+    background-color: rgb(24, 154, 187);
     border-radius: 10%;
-    border-color: aqua;
+    border-color: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: aliceblue;
+    padding: 4px;
+    font-size:8px;
+}
+#inval{
+    padding: 4px;
+    font-size:8px;
+     width: 70px;
+     text-align: center;
+
 }
 
 hr{
@@ -66,8 +77,14 @@ li {
   padding-left: 1em;
   text-indent: -1em;
 }
+/* 
+
+Non Riesco a cambiare Entity al Singolo item della lista 
+
+*/
+
 li:before {
-  content: "+";
+  content: "\2705";
   padding-right: 5px;
 }
 

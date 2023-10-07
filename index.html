@@ -7,80 +7,100 @@
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
+
     <!-- Header -->
     <header>
         <div class="logo-conteiner">
             <img class="logo-img" src="img/Logo.png" alt="">
             <span id="title">Toboolist</span>
-        </div>
-        
+        </div>  
     </header>
+
     <!-- Main -->
     <main>
+
         <!-- Backgrounf Container -->
         <div class="container-main" >
+
             <!-- To Do list Container -->
             <div class="container todo-list">
+
                 <!-- Inputs Container -->
                 <div class="container inputs">
-                    <input id="add" type="button" value="Add Task">
-                    <input id="inval" type="text" name="Last Name" placeholder="Add Section">
+                    <button type="button" class="button">
+                        Add Task
+                    </button>
+                    <input id="input-text" type="text" name="Last Name" placeholder="Add Section">
                 </div>
-                <hr>
+
+                <!-- Container Description List -->
+
                 <div class="conteiner-description">
                     <!-- New Task Section -->
+                    <section>
                         <h2 class="descriptions"> &#9660; New Task</h2>
                         <ul>
-                            <li>Quarterly newsteller 
+                            <li class="ok">Quarterly newsteller 
                                 <span class="type editorial"> Editorial</span>
                             </li>
                         </ul>
                     </section>
+
                     <!--Today Section -->
                     <section>
                         <h2 class="descriptions"> &#9660; Today </h2>
                         <ul>
-                            <li class="right">Recruting Blog Post
+                            <li class="ok">Recruting Blog Post
                                 <span class="type editorial"> Editorial</span>
                             </li>
-                            <li class="right">Mobile App Launch
+                            <li class="ok">Mobile App Launch
                                 <span class="type goals"> Q1 Goals</span>
                             </li>
-                            <li class="nop">Interview Jhon H.
+                            <li class="ko">Interview Jhon H.
                                 <span class="type recruting"> Recruting</span>
                             </li>
-                            <li class="right">Summit Update to Mobile Storefronts 
+                            <li class="ok">Summit Update to Mobile Storefronts 
                                 <span class="type mobile"> Mobile</span>
                             </li >
 
                         </ul>
+                    </section>
+
                      <!--Upcomming Section -->
                     <section>
                         <h2 class="descriptions"> &#9660; Upcomming </h2>
                         <ul>
-                            <li class="right">Schedule miting with Alex
+                            <li class="ok">Schedule miting with Alex
                             </li>
-                            <li class="right">Home Page Refresh
+                            <li class="ko">Home Page Refresh
                                 <span class="type website"> Website</span>
                             </li>
-                            <li class="right">Onboard new Sales Team Members
+                            <li class="ko">Onboard new Sales Team Members
                                 <span class="type sales"> Sales</span>
                             </li>
-                            <li class="right">Review editorial Calender
+                            <li class="ok">Review editorial Calender
                                 <span class="type editorial"> Editorial</span>
                             </li>
                         </ul>
                     </section>
-
+                     <!-- OLD Task Section -->
+                    <section>
+                        <h2 class="descriptions"> &#9660; Old Task</h2>
+                        <ul>
+                            <li class="ok">Quarterly newsteller 
+                                <span class="type mobile"> Mobile</span>
+                            </li>
+                            <li class="ko">Quarterly newsteller 
+                                <span class="type mobile"> Mobile</span>
+                            </li>
+                        </ul>
+                    </section>
                 </div>
 
-                
-                <!-- Container Description List -->
-
-
-
             </div>
+
         </div>
+
     </main>
 
 

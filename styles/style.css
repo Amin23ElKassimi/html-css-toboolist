@@ -5,6 +5,7 @@
     box-sizing: border-box;
 }
 
+
 /* Header */
 .logo-conteiner{
     padding: 20px ;
@@ -22,46 +23,45 @@
 
 /* Main */
 .container-main{
-    background-color: rgb(222, 224, 224);
+    background-color: #dfe6e9;
     padding-top: 50px;
     padding-bottom: 10px;
 }
-
 /* Container To Do List */
 .container.todo-list{
     height: 600px;
-    width: 500px;
+    width: 760px;
     margin: auto;
     border-radius: 2%;
     background-color: white;
 }
-/* Container Inputs */
+/* TASKBAR */
 .container.inputs{
-    height: 50px;
-    padding-left: 50px;
-    padding-top: 15px;
+    padding: 1rem 50px 1rem;
+    border-bottom: 4px solid #dfe6e9;
 }
+
 /* Botton add */
-#add{
-    background-color: rgb(24, 154, 187);
-    border-radius: 10%;
-    border-color: none;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: aliceblue;
-    padding: 4px;
-    font-size:8px;
+.button {
+    border: none;
+    padding: .5rem 1rem;
+    font-size: 0.8rem;
+    margin-right: .5rem;
+    border-radius: .5rem;
+    background-color: #47acf0;
+    color: white;
 }
-#inval{
-    padding: 4px;
-    font-size:8px;
-     width: 70px;
-     text-align: center;
+/* Input di testo */
+#input-text{
+    font-size: 0.8rem;
+    margin-right: .5rem;
+    border-radius: .5rem;
+    padding: .5rem 1rem;
+    width: 100px;
+    border: 1px solid gray;
 
 }
 
-hr{
-    border-color: rgb(222, 224, 224);
-}
 
 /* conteiner-description */
 .conteiner-description{
@@ -77,16 +77,24 @@ li {
   padding-left: 1em;
   text-indent: -1em;
 }
-/* 
 
-Non Riesco a cambiare Entity al Singolo item della lista 
 
-*/
-
-li:before {
+li.ok:before {
   content: "\2705";
   padding-right: 5px;
 }
+li.ko:before {
+    content: "\274C";
+    padding-right: 5px;
+  }
+
+
+
+.element-circle-red {
+    color: red;
+    border: 1px solid red;
+}
+
 
 /*---------------Classi Generiche e specifiche---------------*/
 /* Classe generica per la formattazione del box che descrive la dei Tipologia task */
